@@ -1,0 +1,90 @@
+/* // winning patterns---
+// 0-1-2
+// 3-4-5
+// 0-3-6
+// 1-4-7
+// 2-5-8
+// 0-4-8
+// 2-4-6 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+body {
+    background-color: #7fb685;
+    text-align: center;
+}
+
+.divclass {
+    height: 60vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5vmin;
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 5px;
+    font-size: 12vmin;
+    color: #da2421;
+    box-shadow: 3px 5px 5px #654f4ff7;
+    background-color: #E6B66A;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background-color: #4f3939f7;
+    box-shadow: 2px 5px 5px #654f4ff7;
+    color: #ffffff;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background-color: #4f3939f7;
+    box-shadow: 2px 5px 5px #654f4ff7;
+    color: #ffffff;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 30vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
